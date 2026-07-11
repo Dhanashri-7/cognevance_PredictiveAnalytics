@@ -23,14 +23,17 @@ The core of this project features a trained Logistic Regression model wrapped in
 ### 1. Interactive Web Dashboard (Streamlit)
 *This dashboard allows users to input customer profiles and receive real-time churn risk assessments with actionable AI insights.*
 
-![Output/Screenshot 2026-07-11 120755.png](Output/Screenshot 2026-07-11 120755.png) 
+**Dashboard Overview & Analysis:**
+![Dashboard Overview](Output/Screenshot%202026-07-11%20120755.png)
 
+**Customer Persona & Prediction Results:**
+![Dashboard Results](Output/Screenshot%202026-07-11%20120814.png)
 
 ### 2. REST API Backend (FastAPI)
-*The backend API automatically scales incoming JSON data and serves predictions.*
+*The backend API automatically scales incoming JSON data and serves predictions via a locally hosted endpoint.*
 
-![FastAPI Docs Screenshot](path/to/your/api_screenshot.png)
-*(Note: Replace with a screenshot of your http://127.0.0.1:8000/docs page)*
+**API Documentation & Testing Interface:**
+![FastAPI Backend](Output/Screenshot%202026-07-11%20120831.png)
 
 ---
 
@@ -58,8 +61,8 @@ During the evaluation phase, multiple algorithms were tested on the testing spli
 ## 🗂️ Project Structure
 ```text
 cognevance_PredictiveAnalytics/
-├── data/               # Raw Telco Churn CSV (excluded from git if >25MB)
-├── notebooks/          # Jupyter notebooks (Colab) for EDA and Model Training
+├── data/               # Raw Telco Churn CSV 
+├── notebooks/          # Jupyter notebooks for EDA and Model Training
 ├── api/                # FastAPI application
 │   └── main.py         # API routing and model inference
 ├── dashboard/          # Streamlit application
@@ -67,5 +70,6 @@ cognevance_PredictiveAnalytics/
 ├── models/             # Serialized model objects
 │   ├── churn_model.pkl # Trained Logistic Regression model
 │   └── scaler.pkl      # MinMaxScaler object
+├── Output/             # UI and API screenshots for documentation
 ├── README.md           # Project documentation
 └── requirements.txt    # Python dependencies
