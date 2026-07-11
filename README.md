@@ -23,7 +23,7 @@ The core of this project features a trained Logistic Regression model wrapped in
 ### 1. Interactive Web Dashboard (Streamlit)
 *This dashboard allows users to input customer profiles and receive real-time churn risk assessments with actionable AI insights.*
 
-![Streamlit Dashboard Screenshot](Output/Screenshot 2026-07-11 120755.png) 
+![Output/Screenshot 2026-07-11 120755.png](Output/Screenshot 2026-07-11 120755.png) 
 
 
 ### 2. REST API Backend (FastAPI)
